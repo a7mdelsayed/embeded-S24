@@ -13,3 +13,10 @@ void main (void)
    printf("x=%d",x);
    printf("y=%d",1);
 }
+{
+	unsigned char x=0;
+	SET_BIT(x,3);
+	
+   printf("x=%d",x);
+   printf("y=%d",y);
+}
